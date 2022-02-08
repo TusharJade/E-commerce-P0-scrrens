@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.landing-a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.landing-li{
+    list-style: none;
+    padding: 1rem;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(202, 166, 226);
+    border-bottom-left-radius: 1rem;
+}
