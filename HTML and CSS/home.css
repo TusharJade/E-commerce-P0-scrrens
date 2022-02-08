@@ -78,11 +78,32 @@ body{
     color: var(--text-color-page);
 }
 
+.extra-snack{
+        display: none;
+}
 
+.deals-line{
+height: 0.04rem;
+background-color: var(--shadow-gainsboro);
+}
+
+.card-container:hover{
+    box-shadow: 1px 1px 2px 3px var(--shadow-gainsboro);
+}
+
+.category-anchor:hover{
+    box-shadow: 1px 1px 2px 4px var(--shadow-gainsboro);
+}
 
 @media (max-width:380px){
     .category-img {
         width: 6rem;
         height: 6rem;
+    }
+}
+
+@media(max-width:468px){
+    .extra-snack{
+        display: block;
     }
 }
