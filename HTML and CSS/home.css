@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&family=Nunito:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --primary-color: #2874f0;
+    --text-color-page: black;
+    --white-bga: white;
+    --shadow-whitesmoke: whitesmoke;
+    --shadow-gainsboro:gainsboro;
+    --body-bg:#f1f3f6;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background-color: var(--body-bg);
+}
+
+.simple-head {
+    position: fixed;
+    z-index: 4;
+}
+
+.section-categery {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3.8rem ;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.category-anchor {
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color-page);
+    box-shadow: 1px 1px 2px 1.5px var(--shadow-gainsboro);
+    background-color: var(--white-bga);
+}
+
+.category-img {
+    width: 7rem;
+    height: 7rem;
+    background-color: var(--white-bga);
+}
+
+.offer-name{
+    font-weight: 600;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.deals-ofday{
+    box-shadow: 1px 1px 2px 1.4px var(--shadow-gainsboro);
+    background-color: var(--white-bga);
+    margin: 0.3rem 1rem;
+}
+
+.offer-cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-container{
+    margin: 0.5rem 0rem;
+}
+
+.card-anchor{
+    text-decoration: none;
+    color: var(--text-color-page);
+}
+
+.extra-snack{
+        display: none;
+}
+
+.deals-line{
+height: 0.04rem;
+background-color: var(--shadow-gainsboro);
+}
+
+.card-container:hover{
+    box-shadow: 1px 1px 2px 3px var(--shadow-gainsboro);
+}
+
+.category-anchor:hover{
+    box-shadow: 1px 1px 2px 4px var(--shadow-gainsboro);
+}
+
+@media (max-width:380px){
+    .category-img {
+        width: 6rem;
+        height: 6rem;
+    }
+}
+
+@media(max-width:468px){
+    .extra-snack{
+        display: block;
+    }
+}
