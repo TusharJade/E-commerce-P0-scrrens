@@ -4,18 +4,18 @@
     padding: 0;
 }
 
-.landing-a{
+.anchors{
     text-decoration: none;
     color: black;
     font-size: larger;
 }
 
-.landing-li{
+.pages-list{
     list-style: none;
     padding: 1rem;
 }
 
-.bar{
+.container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
