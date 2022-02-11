@@ -74,6 +74,18 @@ body{
     width: 70%;
 }
 
+@media(max-width:1170px){
+    .right {
+        position: absolute;
+        top: 4rem;
+        left: 21.5em;
+        width: 56%;
+    }
+
+    .card-container{
+        margin: 0.4rem 0rem;
+    }
+}
 
 @media(max-width:799px){
     .left{
@@ -84,10 +96,6 @@ body{
         position: absolute;
         top: 3rem;
         left: 0rem;
-    }
-    .right-side {
-     display: flex;
-     justify-content: space-around ;
     }
     .card-container{
         margin: 0.4rem 0rem;
