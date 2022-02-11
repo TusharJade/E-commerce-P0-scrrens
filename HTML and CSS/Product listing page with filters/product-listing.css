@@ -18,6 +18,11 @@ body{
     background-color: var(--body-bg);
 }
 
+.card-anchor{
+    text-decoration: none;
+    color: black;
+}
+
 .sort-byname {
     border: none;
     font-size: 0.9rem;
@@ -72,6 +77,10 @@ body{
     top: 4rem;
     left: 21.5em;
     width: 70%;
+}
+
+.card-container:hover{
+    box-shadow: 1px 1px 2px 4px var(--shadow-gainsboro);
 }
 
 @media(max-width:1170px){

@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.wishlist-text{
+ font-weight: 600;
+ font-size: 1.2rem;
+ text-align: center;
+ margin:  1rem 0rem;
+}
+
+.wishlist-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0rem 3rem;
+}
+
+.wishlistcard-space{
+   margin: 1rem 2rem;
+}
+
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+
+.card-container-part:hover{
+    box-shadow: 1px 1px 2px 4px gainsboro;
+}
+
+.card-dismiss{
+    cursor: pointer;
+}
+
+
+@media(max-width:800px){
+
+    .wishlistcard-space{
+        margin: 0.5rem 0rem;
+     }
+    .wishlist-container{
+        margin: 0rem;
+    }
+}
+
+@media(max-width:564px){
+    .wishlistcard-space{
+        margin: 0.5rem 0rem;
+     }
+    .wishlist-container{
+       margin: 0rem;
+    }
+}
