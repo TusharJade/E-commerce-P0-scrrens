@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&family=Nunito:wght@300;400;500;600;700&display=swap');
 
+:root {
+    --white-bga: white;
+    --shadow-gainsboro:gainsboro;
+    --body-bg:#f1f3f6;
+}
 
 * {
     box-sizing: border-box;
@@ -10,7 +15,7 @@
 }
 
 body{
-    background-color: #f1f3f6;
+    background-color: var(--body-bg);
 }
 
 .sort-byname {
@@ -32,16 +37,16 @@ body{
 }
 
 .sortby-container {
-    border: 1px solid gainsboro;
-    box-shadow: 0.1px 0.1px 0.2px 0.6px gainsboro;
+    border: 1px solid var(--shadow-gainsboro) ;
+    box-shadow: 0.1px 0.1px 0.2px 0.6px var(--shadow-gainsboro) ;
     width: max-content;
     padding: 0.5rem 1rem;
-    background-color: white;
+    background-color: var(--body-bg);
 }
 
 .all-contain {
-    border: 1px solid gainsboro;
-    background-color: white;
+    border: 1px solid var(--shadow-gainsboro) ;
+    background-color: var(--body-bg);
 }
 
 .left-side {
