@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&family=Nunito:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --white-bga: white;
+    --shadow-gainsboro: gainsboro;
+    --body-bg: #f1f3f6;
+    --green: green;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: var(--body-bg);
+}
+
+.cart-calculater {
+    width: 30%;
+    background-color: var(--white-bga);
+    box-shadow: 0.7px 0.7px 0.6px 0.6px var(--shadow-gainsboro);
+    margin-left: 3rem;
+}
+
+.cartheading-calc {
+    padding: 0.9rem 1rem;
+    box-shadow: 0.1px 0.1px 0.6px 0.6px var(--shadow-gainsboro);
+    font-weight: 600;
+}
+
+.price-details {
+    display: inline-block;
+}
+
+.pricing-outerbox {
+    margin: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.divbox {
+    display: flex;
+    padding: 0.5rem;
+    justify-content: space-between;
+}
+
+.discounted-mrpnum {
+    color: var(--green);
+}
+
+.delivert-status {
+    color: var(--green);
+}
+
+.line {
+    border-bottom: 1px solid var(--shadow-gainsboro);
+}
+
+.total-paybox {
+    display: flex;
+    padding: 0rem 1rem 1rem 1rem;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+
+.mainbox {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+@media(max-width:600px){
+    .cart-calculater {
+        width: 100%;
+     margin-left: 0;
+    }
+}

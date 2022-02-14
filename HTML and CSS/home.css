@@ -69,13 +69,10 @@ body{
     justify-content: space-around;
 }
 
-.card-container-simple{
-    margin: 1rem 0rem;
-}  
-
 .card-anchor{
     text-decoration: none;
     color: var(--text-color-page);
+    margin: 1rem 0rem;
 }
 
 .extra-snack{

@@ -127,4 +127,7 @@ body{
     .sortby-container{
         display: block;
     }
+    .right-side {
+        justify-content: space-evenly;
+    }
 }
