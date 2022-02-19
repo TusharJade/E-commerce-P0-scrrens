@@ -5,8 +5,8 @@
     --text-color-page: black;
     --white-bga: white;
     --shadow-whitesmoke: whitesmoke;
-    --shadow-gainsboro:gainsboro;
-    --body-bg:#f1f3f6;
+    --shadow-gainsboro: gainsboro;
+    --body-bg: #f1f3f6;
 }
 
 * {
@@ -17,7 +17,7 @@
     font-family: 'Nunito', sans-serif;
 }
 
-body{
+body {
     background-color: var(--body-bg);
 }
 
@@ -29,7 +29,7 @@ body{
 .section-categery {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 3.8rem ;
+    padding-top: 3.8rem;
     width: 100%;
     justify-content: space-around;
 }
@@ -51,56 +51,68 @@ body{
     background-color: var(--white-bga);
 }
 
-.offer-name{
+.offer-name {
     font-weight: 600;
     padding: 1rem;
     font-size: 1.1rem;
 }
 
-.deals-ofday{
+.deals-ofday {
     box-shadow: 1px 1px 2px 1.4px var(--shadow-gainsboro);
     background-color: var(--white-bga);
     margin: 0.3rem 1rem;
 }
 
-.offer-cart{
+.offer-card {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.card-anchor{
+.card-anchor {
     text-decoration: none;
     color: var(--text-color-page);
     margin: 1rem 0rem;
 }
 
-.extra-snack{
-        display: none;
+.extra-snack {
+    display: none;
 }
 
-.deals-line{
-height: 0.04rem;
-background-color: var(--shadow-gainsboro);
+.deals-line {
+    height: 0.04rem;
+    background-color: var(--shadow-gainsboro);
 }
 
-.card-container:hover{
+.card-container:hover {
     box-shadow: 1px 1px 2px 3px var(--shadow-gainsboro);
 }
 
-.category-anchor:hover{
+.category-anchor:hover {
     box-shadow: 1px 1px 2px 4px var(--shadow-gainsboro);
 }
 
-@media (max-width:380px){
+@media (max-width:380px) {
     .category-img {
         width: 6rem;
         height: 6rem;
     }
+
+    .offer-card {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: none;
+        overflow: scroll;
+    }
+    .card-anchor{
+        margin: 1rem 0.3rem;
+    }
+
+
 }
 
-@media(max-width:468px){
-    .extra-snack{
+@media(max-width:468px) {
+    .extra-snack {
         display: block;
     }
 }

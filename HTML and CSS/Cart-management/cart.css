@@ -5,6 +5,7 @@
     --shadow-gainsboro: gainsboro;
     --body-bg: #f1f3f6;
     --green: green;
+    --color-primary: #f05632;
 }
 
 * {
@@ -20,10 +21,11 @@ body {
 }
 
 .cart-calculater {
-    width: 30%;
+    width: 40%;
     background-color: var(--white-bga);
     box-shadow: 0.7px 0.7px 0.6px 0.6px var(--shadow-gainsboro);
     margin-left: 3rem;
+    height: 14rem;
 }
 
 .cartheading-calc {
@@ -48,11 +50,7 @@ body {
     justify-content: space-between;
 }
 
-.discounted-mrpnum {
-    color: var(--green);
-}
-
-.delivert-status {
+.green-color {
     color: var(--green);
 }
 
@@ -62,22 +60,59 @@ body {
 
 .total-paybox {
     display: flex;
-    padding: 0rem 1rem 1rem 1rem;
+    margin: 1rem 1rem;
     font-weight: 600;
     justify-content: space-between;
 }
 
+.place-order {
+    box-shadow: 1px 1px 1px 1px var(--shadow-gainsboro);
+    border: none;
+    padding: 0.75rem 1rem;
+    background-color: #f05632;
+    width: 10rem;
+    color: var(--white-bga);
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.placeorder-div {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding: 0.6rem;
+    box-shadow: 0.7px 0.7px 0.6px 0.6px gainsboro;
+    margin: 2rem 0rem;
+}
+
+/* calculation box ends */
+
+.card-outerspace {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container-horiz {
+    margin-bottom: 1rem;
+}
 
 .mainbox {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 
-@media(max-width:600px){
+@media(max-width:693px) {
     .cart-calculater {
         width: 100%;
-     margin-left: 0;
+        margin: 2rem 1rem;
+    }
+
+    .mainbox {
+        margin-top: 1.5rem;
+        margin-bottom: 5rem;
     }
 }
