@@ -2,7 +2,7 @@
 
 Here you can see my screens of E-commerce app which I made with HTML and CSS.
 
-- App is responsive
+- App is responsive 
 - All P0 scrrens are available
 
 ## Video of E-com app
@@ -47,7 +47,7 @@ In this page you will see all wishlist product.
 
 You will find Login and sign up page on https://p0-ecom.netlify.app/html%20and%20css/authentication/login/login
 
-In this page you will find login and sign up pages
+In this page you will find login and sign up pages, and the login button you can see in heading will be converted into Logout button once a person logged in.
 
 ---
 
